@@ -3,6 +3,7 @@
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{geometry}
+\usepackage{graphicx}
 \geometry{a4paper}
 
 \title{Lösungen zum Übungsblatt 1}
@@ -57,9 +58,25 @@ Since \( A \cup B \subseteq A \cup (\neg A \cap B) \) and \( A \cup (\neg A \cap
 \section*{Aufgabe H1}
 Mengen im Ergebnisraum $\Omega = [-1, 1]^2$.
 \begin{itemize}
-    \item $A$: $\{(x, y) \in \Omega : x + y \geq 0\}$
+    \item $\neg A$: $\{(x, y) \in \Omega : x + y < 0\}$ 
+    \[(\neg A)\]
+    \begin{figure}[!ht]
+        \centering
+        \includegraphics[width=0.8\textwidth]{img/h1_a.png}
+        \caption{Graphical representation of the set \( A \) where \( x + y < 0 \).}
+    \end{figure}
     \item $A \cap B$: $\{(x, y) \in \Omega : x + y \geq 0 \text{ und } |x| + |y| \geq 1\}$
-    \item $B \cup C$: $\{(x, y) \in \Omega : |x| + |y| \geq 1 \text{ oder } x^2 \geq y\}$
+    \begin{figure}[!ht]
+        \centering
+        \includegraphics[width=0.8\textwidth]{img/h1_b.png}
+        \caption{Description...}
+    \end{figure}
+    \item $(B \cup C)^c$: $\{(x, y) \in \Omega : |x| + |y| < 1 \text{ oder } x^2 < y\}$
+    \begin{figure}[!ht]
+        \centering
+        \includegraphics[width=0.8\textwidth]{img/h1_c.png}
+        \caption{Description...}
+    \end{figure}
 \end{itemize}
 
 \section*{Aufgabe H2}
