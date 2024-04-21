@@ -1,5 +1,5 @@
 
-# LaTeX Project Repository
+# Lecture Repository
 
 Welcome to the lecture Repository! This README provides instructions on how to set up and use LaTeX with Visual Studio Code (VSCode) on Ubuntu. 
 
